@@ -18,4 +18,52 @@
 
 body {
 	font-family: var(--font-sans), serif;
+	background-color: var(--color-accent);
+}
+
+section {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+	background-color: var(--color-white);
+	padding: 20px 40px;
+	margin: 200px 800px;
+	border-radius: 40px;
+}
+
+img{
+	display: block;
+	height: 200px;
+	margin: 20px;
+}
+.mather-box{
+	display: flex;
+	flex-direction: row;
+	gap: 5px;
+
+}
+.box{
+	display: block;
+	background-color: var(--color-black);
+	border-radius: 50%;
+	padding: 20px;
+	aspect-ratio: 1/1;
+}
+#box1{
+	background-color: var(--color-primary);
+}
+#box2{
+	background-color: var(--color-accent);
+}
+#box3{
+	background-color: var(--color-secondary);
+}
+p{
+	margin: 10px;
+	text-align: center;
+}
+
+.button-click{
+	margin: 10px;
 }
